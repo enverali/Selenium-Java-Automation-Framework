@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25183" started-at="2018-02-21T20:16:21Z" finished-at="2018-02-21T20:16:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25183" started-at="2018-02-21T20:16:21Z" finished-at="2018-02-21T20:16:47Z">
+      <class name="org.exostar.ts.LoginTC">
+        <test-method status="PASS" signature="beforeSuite(boolean)[pri:0, instance:org.exostar.ts.LoginTC@6093dd95]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2018-02-21T15:16:21Z" finished-at="2018-02-21T15:16:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="launchBrowser(org.testng.ITestResult, java.lang.reflect.Method, java.lang.String, java.lang.String)[pri:0, instance:org.exostar.ts.LoginTC@6093dd95]" name="launchBrowser" is-config="true" duration-ms="8977" started-at="2018-02-21T15:16:22Z" finished-at="2018-02-21T15:16:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyBAIDLoginWithValidCredential_55377 status=SUCCESS method=LoginTC.VerifyBAIDLoginWithValidCredential_55377()[pri:0, instance:org.exostar.ts.LoginTC@6093dd95] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void org.exostar.ts.LoginTC.VerifyBAIDLoginWithValidCredential_55377()]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://ssoqa.test.aviationid.com/idprov/pages/home/dashboard.faces]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="VerifyBAIDLoginWithValidCredential_55377()[pri:0, instance:org.exostar.ts.LoginTC@6093dd95]" name="VerifyBAIDLoginWithValidCredential_55377" duration-ms="14307" started-at="2018-02-21T15:16:31Z" finished-at="2018-02-21T15:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBAIDLoginWithValidCredential_55377 -->
+        <test-method status="PASS" signature="terminateBrowser(org.testng.ITestResult)[pri:0, instance:org.exostar.ts.LoginTC@6093dd95]" name="terminateBrowser" is-config="true" duration-ms="1773" started-at="2018-02-21T15:16:45Z" finished-at="2018-02-21T15:16:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyBAIDLoginWithValidCredential_55377 status=SUCCESS method=LoginTC.VerifyBAIDLoginWithValidCredential_55377()[pri:0, instance:org.exostar.ts.LoginTC@6093dd95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- org.exostar.ts.LoginTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
