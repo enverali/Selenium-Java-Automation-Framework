@@ -1,14 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Parallel test suite" parallel="classes" thread-count="1">
     <parameter name="updateOnJira" value="true"/>
-    <test name="Exostar Core Part - Node - 1">
+    <test name="Automation Core Part - Node - 1">
         <parameter name="browserName" value="chrome"/>
-      <!--   <parameter name="url" value="https://ssoqa.test.aviationid.com/idprov/pages/home/dashboard.faces"/> -->
        <!--  <parameter name="url" value="https://accounts.google.com/signin"/> -->
         <classes>
-            <class name="org.exostar.ts.LoginTC">
+            <class name="com.Automation.ts.LoginTC">
                <!--  <methods>
-                    <include name="LoginTest_55285()"></include>
+                    <include name="LoginTest)"></include>
                 </methods> -->
             </class>
         </classes>

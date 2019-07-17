@@ -3,11 +3,11 @@
     <parameter name="updateOnJira" value="true"/>
     <test name="Exostar Core Part - Node - 1">
         <parameter name="browserName" value="chrome"/>
-        <parameter name="url" value="https://ssoqa.test.aviationid.com/idprov/pages/home/dashboard.faces"/>
+        <parameter name="url" value="https://company/home/dashboard.com"/>
         <classes>
             <class name="org.exostar.ts.LoginTC">
                <!--  <methods>
-                    <include name="LoginTest_55285()"></include>
+                    <include name="LoginTest()"></include>
                 </methods> -->
             </class>
         </classes>
